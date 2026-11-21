@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Website</title>
+
+<style>
+
+.pimg1, .pimg2, .pimg3 {
+
+position: relative;
+
+opacity: 0.70;
+
+background-position: center;
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+}
+
+.pimg1 {
+
+background-image: url('https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2017/07/Soothing-nature-backgrounds-2.jpg');
+
+min-height: 400px;
+
+}
+
+.pimg2 {
+
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRmTUvV8anLaeX_jcq_neGLY0Lyw5gmirbP_Q8p3a1g&s=10');
+
+min-height: 400px;
+
+}
+
+.pimg3 {
+
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1pWxGQhgkXeyfrLP02ak-aEVImZ8jNMBEsoGjavs1VQ&s=10');
+
+min-height: 400px;
+
+}
+
+.section {
+
+text-align: center;
+
+padding: 50px 80px;
+
+}
+
+.section-light {
+
+background-color: #f4f4f4;
+
+color: #666;
+
+}
+
+.section-dark {
+
+background-color: #282e34;
+
+color: #ddd;
+
+}
+
+.ptext {
+
+position: absolute;
+
+top: 50%;
+
+width: 100%;
+
+text-align: center;
+
+color: #000;
+
+font-size: 27px;
+
+letter-spacing: 8px;
+
+text-transform: uppercase;
+
+}
+
+.ptext .border {
+
+background-color: #111;
+
+color: #fff;
+
+padding: 20px;
+
+}
+
+.ptext .border-trans {
+
+background-color: transparent;
+
+}
+
+@media (max-width: 500px) {
+
+.pimg1, .pimg2, .pimg3 {
+
+background-attachment: scroll;
+
+}
+
+}
+
+</style>
+
+</head>
+    <body>
+        <h1>Welcome to Contain display and website</h1>
+         <div class="pimg1">
+            <div class="ptext">
+                <span class="border-trans">Image One Text</span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section One</h2>
+            <p>Web Developement is the work involved in developing a Web site 
+                for the Internet (World Wide Web) or an intranet (a private network)
+            </p>
+        </section>
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border-trans">Image Two Text</span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section Two</h2>
+            <p>
+                HTML is used to create the structure of a webpage.
+CSS is used to design and style the webpage.
+            </p>
+        </section>
+         <div class="pimg3">
+            <div class="ptext">
+                <span class="border-trans">Image Three Text</span>
+            </div>
+        </div>
+                <section class="section section-dark">
+            <h2>Section Three</h2>
+            <p>
+JavaScript makes websites interactive.
+It helps us add buttons, animations and other features
+            </p>
+        </section>
+    </body>
+</html>
